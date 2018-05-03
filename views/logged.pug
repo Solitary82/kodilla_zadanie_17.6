@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Logged in screen
+    style
+        include ../styles/logged.css
+  body
+    include ./header.pug
+    #greetings
+      h2
+        | Gratulacje #{username}. Zalogowałeś się!
+        | Kliknij poniższy przycisk, by powrócić do ekranu logowania
+      form(action='http://localhost:3000')
+        input(type='submit', value='Wróć do logowania')
+    include ./footer.pug

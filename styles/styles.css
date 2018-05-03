@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+
+#description {
+    text-align: center;
+    
+}
+#login {
+    width: 30vw;
+    margin: auto;
+    display: block;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.login, .reset {
+    margin-top: 20px;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+.login {
+    color: white;
+    background-color: green;
+}
+
+.login:hover {
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+
+.reset {
+    color: white;
+    background-color: red;
+}
+
+.reset:hover {
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
