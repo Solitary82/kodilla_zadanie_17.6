@@ -1,8 +1,6 @@
-var path = require('path')
 var express = require('express')
 var app = express()
 app.use(express.static('logo'))
-
 
 app.set('view engine', 'pug')
 app.set('views', './views')
